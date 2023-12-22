@@ -17,3 +17,23 @@ lista1: [
 leitor.html -> possui um label (escreva aqui a mensagem), um dropdown menu de (escolha aqui o usuário), 
 e um dropdown menu de (escolha aqui a lista). e então um botão para salvar a mensagem. 
 
+estrutura dos arquivos:
+project-root/
+|-- index.html
+|-- ideias.txt
+|-- assets/
+|   |-- stylesheets/
+|   |   |-- main.css
+|   |
+|   |-- scripts/
+|       |-- javascript/
+|           |-- scripts.js
+|       |
+|       |-- database/
+|           |-- handler.php
+|           |
+|           |-- json/
+|               |-- (arquivos JSON)
+
+
+
