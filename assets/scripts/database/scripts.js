@@ -20,7 +20,7 @@ async function fetchData() {
 async function processData() {
 	console.log("iniciando processData()");
 	
-	var jsonData = json.parse(await fetchData());
+	var jsonData = JSON.parse(await fetchData());
 	const saidaContainer = document.getElementById("saida-container");
 	const historiasDropdown = document.getElementById("historias-dropdown");
 	
