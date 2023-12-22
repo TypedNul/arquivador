@@ -1,1 +1,16 @@
+arquivador.html -> utiliza a informação vinda de texts.json para imprimi-la na tela. possui uma aba para 
+cada lista json. cada item json possui duas propriedades: mensagem, e usuário. mensagem é a mensagem em si 
+na qual será imprimida, e usuário é qual foi (peixe/aquário) o usuário que a enviou.
+
+cada lista é formatada da seguinte maneira:
+
+lista1: [
+	{ "Usuário": "A/P" 
+	  "Mensagem": "mensagem"}
+	
+	{ "Usuário": "A/P" 
+	  "Mensagem": "mensagem"}
+	  
+	  ...
+		]
 
