@@ -3,13 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LEITOR</title>
-   <script src="assets\javascript\l_scripts.js"></script>
-  <link rel="stylesheet" href="assets/stylesheets/normalizer.css">
-  <link rel='stylesheet' href='assets/stylesheets/l_main.css'>
+  <title>ARQUIVADOR</title>
+  
+  <!-- Linking all necessary files -->
+  <script src="assets/javascript/scripts.js"></script>
+  <link rel='stylesheet' href='assets/stylesheets/normalizer.css'>;
+  <link rel='stylesheet' href='assets/stylesheets/main.css'>
 </head>
 <body>
-	<div id='msg-container'> 
+
+	<div id="saida-container"> </div> <!-- divisão da saída de mensagens !-->
+	
+	<div id='entrada-container'> 
 		<label for='mensagem'>escreva aqui sua mensagem: </label>
 		<textarea id='mensagem' placeholder='sua mensagem...'> </textarea>
 		
@@ -24,8 +29,12 @@
 		</select>
 		
 		<button id='botão-enviar'>enviar</button>
-	</div> <!-- divisão do enviador de mensagem !--> 
+	</div> <!-- divisão da saída de mensagem !--> 
+
 	
-	
+  <!-- Execute the processData function after the page is loaded -->
+  <script>
+    document.addEventListener('DOMContentLoaded', processData);
+  </script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-/* l_main.css */
+/* main.css */
 
 body {
   font-family: Arial, sans-serif;
@@ -6,13 +6,13 @@ body {
   margin: 15px;
 }
 
-#msg-container {
+#entrada-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#msg-container > * {
+#entrada-container > * {
   margin: 15px;
   padding: 5px;
 }

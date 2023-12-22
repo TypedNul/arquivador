@@ -25,12 +25,21 @@ async function processData() {
   const jsonData = await fetchData();
   const mensagensContainer = document.getElementById('mensagens-container');
   
+  const selectionMenu = document.getElementById('lista');
+  const listaNomes = Object.keys(jsonData);
+  
   jsonData.indefinido.forEach(message => {
     const paragraph = document.createElement('p');
     paragraph.textContent = message.mensagem;
     
     paragraph.classList.add(message.usuario);
-    
     mensagensContainer.appendChild(paragraph);
+  }); 
+  
+  listaNomes.forEach(nome => {
+    const opt = document.createElement('option');
+    opt.textContent = nome;
+		
+    selectionMenu.appendChild(opt);
   });
 }
