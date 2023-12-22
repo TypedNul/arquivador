@@ -6,33 +6,21 @@
   <title>ARQUIVADOR</title>
   
   <!-- Linking all necessary files -->
-  <script src="assets/javascript/scripts.js"></script>
+  <script src="assets/scripts/database/scripts.js"></script>
   <link rel='stylesheet' href='assets/stylesheets/normalizer.css'>;
   <link rel='stylesheet' href='assets/stylesheets/main.css'>
 </head>
 <body>
-
-	<div id="saida-container"> </div> <!-- divisão da saída de mensagens !-->
 	
-	<div id='entrada-container'> 
-		<label for='mensagem'>escreva aqui sua mensagem: </label>
-		<textarea id='mensagem' placeholder='sua mensagem...'> </textarea>
+	<div id="saida-conteiner"> 
+		<select id="historias-dropdown"></select>
 		
-		<label for='usuario'>selecione qual o usuário: </label>
-		<select id='usuario'> 
-			<option value='A'>aquário</option>
-			<option value='P'>peixe</option>
-		</select>
-		
-		<label for='lista'>selecione qual a história: </label>
-		<select id='lista'>
-		</select>
-		
-		<button id='botão-enviar'>enviar</button>
-	</div> <!-- divisão da saída de mensagem !--> 
-
 	
-  <!-- Execute the processData function after the page is loaded -->
+	</div>
+	
+	
+	
+  
   <script>
     document.addEventListener('DOMContentLoaded', processData);
   </script>
