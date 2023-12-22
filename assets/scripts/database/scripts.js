@@ -32,4 +32,5 @@ async function processData() {
 	})
 		
 	}
-}
+	
+addEventListener("DOMContentLoaded", processData);
