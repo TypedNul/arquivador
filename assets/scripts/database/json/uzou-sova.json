@@ -1,10 +1,11 @@
-{
-	[ 
-	{ "Usuário": "A" 
-	  "Mensagem": "mensagem de aquário úzou-sova"}
-	
-	{ "Usuário": "P" 
-	  "Mensagem": "mensagem de peixe"}
-	]
-	
-}
+[
+	{
+	  "Usuário": "A",
+	  "Mensagem": "mensagem de aquário uzou-sova"
+	},
+	{
+	  "Usuário": "P",
+	  "Mensagem": "mensagem de peixe"
+	}
+  ]
+  

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ARQUIVADOR</title>
+  <title>ARQUIVADOR [BETA]</title>
   
   <!-- Linking all necessary files -->
   <script src="assets/scripts/database/scripts.js"></script>
@@ -11,11 +11,12 @@
   <link rel='stylesheet' href='assets/stylesheets/main.css'>
 </head>
 <body>
-	
-	<div id="saida-conteiner"> 
-		<select id="historias-dropdown"></select>
-		
-	
-	</div>
+	<div id="saida-container">
+    <select id="historias-dropdown"></select> 
+    <label for="mensagem" id="mensagem-label"> </label>
+    <p id="mensagem"> </p>
+    <input type="number" id="entrada-mensagem" style="width: 50px;"> / <span id="mensagens-maximas"></span>
+    <button id='botao-refrescar' onclick='refresh()'> refrescar </button>
+  </div>
 </body>
 </html>
